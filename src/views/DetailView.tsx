@@ -32,7 +32,7 @@ const DetailView: React.FC = () => {
         setCurrentImage(found);
       }
     }
-  }, [id, state]);
+  }, [id, state, images]);
 
   const handlePrevious = () => {
     if (currentIndex > 0) {

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { searchNASAImages } from '../services/nasaAPI';
 import { NASAImage } from '../types/nasa.types';
-import { filterImagesByKeywords, getUniqueKeywords } from '../utils/helpers';
 import styles from './GalleryView.module.css';
 
 const GalleryView: React.FC = () => {
