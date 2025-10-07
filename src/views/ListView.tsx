@@ -64,7 +64,7 @@ const ListView: React.FC = () => {
           type="text"
           value={searchQuery}
           onChange={handleSearchInputChange}
-          placeholder="Filter galaxies by name, description..."
+          placeholder="Filter galaxies by name"
           className={styles.searchInput}
         />
       </div>
